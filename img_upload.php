@@ -60,7 +60,7 @@
 		ImageDestroy($images_orig);
 		ImageDestroy($images_fin);
 		
-		/* Insert Record */
+		/* Insert Record into the database */
 		$objConnect = mysql_connect("localhost","root","n") or die("Error Connect to Database");
 		$objDB = mysql_select_db("TOH");
 		$strSQL = "INSERT INTO photo ";
