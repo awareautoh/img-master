@@ -9,7 +9,7 @@
 	
 	{
 	   // check file size
-	   // and file type
+	   // and file type.
 	
 		if($_FILES["fileUpload"]['size']>=4120000){
 		
