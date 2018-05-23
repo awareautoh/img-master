@@ -22,7 +22,7 @@ $exif_data = exif_read_data("6.JPG");
         $eiso = $exif_data['ISOSpeedRatings'];
         $edate = $exif_data['DateTime'];
        
-
+  //print out exif 
     echo "Make: ". $emake . "<br>";
         echo "Model: ". $emodel . "<br>";
         echo "Exp: ". $eexposuretime . "<br>";
